@@ -1,1 +1,19 @@
+# ChromaDB (transient, regenerated on each run)
+chroma_db/
+
+# Large data files (keep source but not generated embeddings)
+*.json
+cmu_policy.txt
+policy_question_dataset_embeddings.json
+q01_embeddings.json
+question_doc_chunk_matches.json
+
+# Output files
+*.png
+vector_store_results*.json
+
+# OS files
+.DS_Store
+
+# Environment
 .env
