@@ -1,16 +1,16 @@
 # ChromaDB (transient, regenerated on each run)
 chroma_db/
 
-# Large data files (keep source but not generated embeddings)
-*.json
-cmu_policy.txt
+# Generated embeddings and results (can be regenerated)
+cmu_handbook_embeddings.json
 policy_question_dataset_embeddings.json
 q01_embeddings.json
 question_doc_chunk_matches.json
-
-# Output files
-*.png
 vector_store_results*.json
+cmu_policy.txt
+
+# Output visualizations
+*.png
 
 # OS files
 .DS_Store
